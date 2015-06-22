@@ -4,7 +4,7 @@ title:  Welcome!
 cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural language processing, artificial intelligence"
 ---
 
-<a href="img/GuillaumeBouchardChamechaude.jpg" style="cursor: default">
+<a href="img/GuillaumeBouchard.jpg" style="cursor: default">
     <img id="portrait" src="img/GuillaumeBouchardChamechaude.jpg
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
