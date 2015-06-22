@@ -1,0 +1,246 @@
+/* Accented Analogic on http://colorschemedesigner.com/ with 00CC00 as base */
+
+/*
+Primary Color:
+
+00CC00	269926	008500	39E639	67E667
+
+Secondary Color A:
+009999	1D7373	006363	33CCCC	5CCCCC
+
+Secondary Color B:
+9FEE00	86B32D	679B00	B9F73E	C9F76F
+
+Complementary Color:
+FF0000	BF3030	A60000	FF4040	FF7373
+*/
+
+html {
+    overflow-y: scroll;
+}
+
+@font-face {
+    font-family:    'Istok Web';
+    font-style:     normal;
+    font-weight:    400;
+    src:            local('Istok Web Regular'), local('IstokWeb-Regular'),
+                        url(res/fonts/istok_web.woff) format('woff');
+}
+
+body {
+    margin:         0px;
+    background:     #ffffff;
+    font-family:    'Istok Web', sans-serif;
+    font-size:      large;
+    color:          #333332;
+}
+
+/* Re-style links globally */
+a {
+    color:              #333332;
+    text-decoration:    underline;
+}
+
+/* A header and footer. */
+#hdr, #ftr {
+    background-color:   darkred;
+    width:              100%;
+    min-height:         5px;
+    padding:            5px 15px;
+}
+
+#hdr {
+    border-bottom:  3px solid black;
+    color:		white;
+}
+
+#ftr {
+    border-top:     3px solid black;
+    clear:          both;
+    font-size:      small;
+    text-align:     left;
+}
+
+#ftr a {
+    text-decoration:    none;
+    color:		white;
+}
+
+/* The center div, holding the sidebars and the content. */
+#ctr {
+    width:      1110px;
+    margin:     0px auto;
+}
+
+#middle, #top {
+    float: left;
+}
+
+#middle {
+    /* calc may be experimental, but it looks fine without it too. */
+    min-height: calc(100% - 130px);
+}
+
+#left, #top_left {
+    float:          left;
+    width:          120px;
+    margin-left:    5px;
+    /* Render even if the element is emptpy. */
+    min-height:     1px;
+}
+
+#content, #top_content {
+    float:          left;
+    width:          850px;
+    height:         auto;
+    margin-left:    5px;
+    margin-right:   5px;
+}
+
+#top_content h1 {
+    /* Don't move the title too far away from the content. */
+    margin-bottom:     0px;
+}
+
+#right, #top_right {
+    float:          right;
+    width:          120px;
+    margin-right:   5px;
+    /* Render even if the element is empty. */
+    min-height:     1px;
+}
+
+#menu, #elsewhere {
+    font-size:      medium;
+    font-weight:    bold;
+    margin-bottom:  25px;
+}
+
+#menu a, #elsewhere a {
+    text-decoration:    none;
+}
+
+/* Specifics for the index page. */
+#portrait {
+    max-width:  250px;
+    display:    inline;
+    float:      right;
+    margin:     10px;
+}
+
+a.fnote {
+    vertical-align:     super;
+    font-size:          small;
+    text-decoration:    none;
+}
+
+p.fnote {
+    font-size:  small;
+}
+
+
+#selected_pubs, #activities {
+    float:      left;
+    width:      405px;
+    font-size:  medium;
+}
+
+#selected_pubs {
+    margin-right:   5px;
+}
+
+#activities {
+    margin-left:    5px;
+}
+
+#selected_pubs h3, #activities h3 {
+    margin-bottom: 0px;
+}
+
+td.activity_date, td.activity_descr {
+    vertical-align: top;
+}
+
+td.activity_date {
+    width:          9em;
+    padding-left:   0px;
+    text-align:     justify;
+}
+
+/* Specifics for the contact page. */
+#mii {
+    max-width:  200px;
+    display:    inline;
+    float:      right;
+    margin:     10px;
+}
+
+/* TODO: MOVE UPWARDS! */
+img.favicon {
+    max-width:  16px;
+    max-height: 16px;
+}
+
+/* BEGIN: Publication styling. */
+
+ul.pub_list li {
+    margin-bottom:  0.5em;
+}
+
+/* END: Publication styling. */
+
+/* BEGIN: Photo gallery styling. */
+
+div.photo {
+    background-color:   black;
+    width:              800px;
+    padding-top:        7px;
+    padding-left:       7px;
+    padding-right:      7px;
+    padding-bottom:     5px;
+    /* TODO: Select a better, more grey colour? */
+    color:              white;
+}
+
+img.photo {
+    max-width:      800px;
+    max-height:     600px;
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto;
+    padding-bottom: 5px;
+}
+
+div.photo_id {
+    float:          left;
+    padding-left:   0.25em;
+    padding-right:  0.5em;
+    font-weight:    bold;
+    font-size:      x-large;
+}
+
+div.photo a {
+    /* TODO: Select a better, more grey colour? */
+    color:              white;
+    text-decoration:    none;
+}
+
+div.photo_caption {
+    font-size:  medium;
+}
+
+div.photo_details {
+    font-size:  x-small;
+}
+
+div.photo_equipment {
+    text-align:     right;
+    padding-right:  0.25em;
+    color:          #999999;
+}
+
+div.photo_spacer {
+    height: 2.25em;
+}
+
+/* END: Photo gallery styling. */

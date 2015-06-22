@@ -1,0 +1,26 @@
+---
+layout: base
+title:  Publications
+cmeta:  "My publication list, constantly kept up-to-date with links to
+        publications, posters, presentations and accurate BibTeX files."
+---
+
+<p>
+
+This page contains hopefully growing list of publications, another good place
+to look would be
+<a href="https://scholar.google.co.uk/citations?user=p1c2c5YAAAAJ&hl=en">
+    my author page on Google Scholar</a>.
+If you have any questions or find errors in my publications, feel free to
+<a href="/contact.html">drop me an e-mail</a>.
+
+<p>
+
+{% capture curr_year %}START{% endcapture %}
+{% for post in site.posts %}
+    {% if post.type == 'publication' %}
+            {% include pub_inner_loop.html %}
+    {% endif %}
+{% endfor %}
+</p>
+
