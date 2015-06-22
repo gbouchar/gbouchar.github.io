@@ -13,7 +13,7 @@ significant action on my part or I am exceedingly busy I will reply swiftly:
 <p>
 g.bouchard at cs.ucl.ac.uk
 </p>
-I
+
 ## University College London ##
 
 I have a desk in the [One Euston Square][gmap] building at the University
