@@ -1,0 +1,26 @@
+{% if post.venue %}
+    <em>
+        {% if post.venue contains 'Proceedings'%}
+            In
+        {% endif %}
+        {{ post.venue }},
+    </em>
+{% endif %}
+
+{% if post.pages %}
+    {% if post.pages contains '-' %}
+        pages
+    {% else %}
+        page
+    {% endif %}
+
+    {{ post.pages }},
+{% endif %}
+
+{% if post.school %}
+    {{ post.school }},
+{% endif %}
+
+{% if post.location %}
+    {{ post.location }},
+{% endif %}

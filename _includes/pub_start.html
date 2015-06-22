@@ -1,0 +1,11 @@
+{% for author in post.authors %}
+    {% if author == 'Pontus Stenetorp' %}
+        <em>{{ author }}{% if forloop.last %}.{% else %},{% endif %}</em>
+    {% else %}
+        {{ author }}{% if forloop.last %}.{% else %},{% endif %}
+    {% endif %}
+{% endfor %}
+
+<strong>
+    {{ post.title }}.
+</strong>

@@ -1,0 +1,35 @@
+### YAML Configuration file for ninjin.github.io
+
+# Jekyll internals (mimics GitHub).
+lsi:            false
+permalink:      date
+safe:           true
+
+# Site specifics.
+encoding:       utf-8
+timezone:       Asia/Tokyo
+
+markdown:       redcarpet
+redcarpet:
+    extensions: [
+        lax_spacing,
+        no_intra_emphasis,
+        smart,
+        space_after_headers,
+        superscript,
+        tables,
+    ]
+highlighter:    pygments
+
+exclude: [
+    CNAME,
+    Gemfile,
+    Gemfile.lock,
+    LICENSE,
+    Makefile,
+    README.md,
+    _site,
+    bib2post.py,
+    build,
+    img/bibtex_icon.svg,
+]

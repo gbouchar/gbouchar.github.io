@@ -1,0 +1,21 @@
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+
+{% unless curr_year == year %}
+    {% unless curr_year == 'START' %}
+        </ul>
+    {% endunless %}
+
+    {% capture curr_year %}{{ year }}{% endcapture %}
+
+    <h3>
+        {{ year }}
+    </h3>
+
+    <ul class="pub_list">
+{% endunless %}
+
+<li>
+    {% include pub_start.html %}
+    {% include pub_mid.html %}
+    {% include pub_end.html %}
+</li>

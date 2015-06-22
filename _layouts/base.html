@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <!-- utf-8 is reasonably nice, let's use that for our homepage -->
+        <meta charset="UTF-8"/>
+        <title>
+            {{ page.title }} - Guillaume Bouchard Home Page
+        </title>
+
+        {% if page.cmeta %}
+            <!-- Include potential meta content to help search engines -->
+            <meta name="description" content="{{ page.cmeta }}"/>
+        {% endif %}
+
+        <!-- Our standard style -->
+        <link rel="stylesheet" type="text/css" href="/style.css"/>
+
+
+        <!-- Most browsers won't need this but still, here -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <body>
+        <div id="body">
+            <div id="ctr">
+                <div id="hdr">
+                    <!-- Left empty for now. -->
+                </div>
+
+                {% if page.title %}
+                    <div id="top">
+                        <div id="top_left">
+                            <!-- Empty. -->
+                        </div>
+
+                        <div id="top_content">
+                            <h1>
+                                {{ page.title }}
+                            </h1>
+                        </div>
+
+                        <div id="top_right">
+                            <!-- Empty. -->
+                        </div>
+                    </div>
+                {% endif %}
+
+                <div id="middle">
+                    <div id="left">
+                        <p>
+                            <div id="menu">
+                                {% include menu.html %}
+                            </div>
+
+                            <div id="elsewhere">
+                                {% include elsewhere.html %}
+                            </div>
+                        </p>
+                    </div>
+
+                    <div id="content">
+                        <!-- Hack to open external links in a new tab. -->
+                        {{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+                    </div>
+
+                    <div id="right">
+                        <!-- Empty. -->
+                    </div>
+                </div>
+            <div id="ftr">
+                <a href="">
+                    &copy; 2015-{{ site.time | date: "%Y" }} Guillaume Bouchard
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- It's a trap! Well, for hostile e-mail crawlers that is... -->
+        <!--<a href="http://bob.llamaslayers.net/contact.php?view=862"></a> -->
+    </body>
+</html>

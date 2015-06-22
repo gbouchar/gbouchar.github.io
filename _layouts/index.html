@@ -1,0 +1,86 @@
+---
+layout: base
+---
+
+{{ content }}
+
+<div>
+    <div id="selected_pubs">
+        <h3>
+            Selected Recent Publications
+        </h3>
+
+        {% assign num_pubs = 0 %}
+        <ul>
+            {% for post in site.posts %}
+                {% if post.type == 'publication' %}
+                    {% if post.selected %}
+                        {% capture num_pubs %}{{ num_pubs | plus: 1 }}{% endcapture %}
+
+                        {% if num_pubs <= '3' %}
+                            <li>
+                                {% include pub_start.html %}
+                                {% include pub_end.html %}
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <div>
+            For an exhaustive list of publications see my
+            <a href="/publications.html">
+                publication
+            </a>
+            or
+            <a href="http://scholar.google.com/citations?user=5t495QgAAAAJ">
+                Google Scholar</a>
+            page.
+        </div>
+    </div>
+    <div id="activities">
+        <h3>
+            Activities
+        </h3>
+
+        <!-- Note: We don't handle events that spans different years. -->
+        {% assign num_acts = 0 %}
+        <table id="activity_tbl">
+            {% for post in site.posts %}
+                {% if post.type == 'activity' %}
+                    {% capture num_acts %}{{ num_acts | plus: 1 }}{% endcapture %}
+                    
+                    {% if num_acts <= '5' %}
+                        <tr>
+                            <td class="activity_date">
+                                {% capture date %}{{ post.date | date: '%b ~%dth' }}{% endcapture %}
+                                {% if post.end %}
+                                    {% capture date %}{{ date }}-{% endcapture %}
+
+                                    {% capture start_month %}{{ post.date | date: '%b' }}{% endcapture %}
+                                    {% capture end_month %}{{ post.end | date: '%b' }}{% endcapture %}
+
+                                    {% if start_month != end_month %}
+                                        {% capture date %}{{ date }}{{ end_month }} {% endcapture %}
+                                    {% endif %}
+                                        
+                                    {% capture date %}{{ date }}{{ post.end | date: '~%dth' }}{% endcapture %}
+                                {% endif %}
+                                    
+                                {% capture date %}{{ date }} {{ post.date | date: "'%y:" }}{% endcapture %}
+
+                                <!-- Date ordinal adapted from: https://gist.github.com/rickydazla/5668017 -->
+                                {{ date | replace: '~0', '' | replace: '~', '' | replace: '1th', '1st' | replace: '2th', '2nd' | replace: '3th', '3rd' | replace: '11st', '11th' | replace: '12nd', '12th' | replace: '13rd', '13th' }}
+                            </td>
+
+                            <td class="activity_descr">
+                                {{ post.content | replace: "<p>", "" | replace: "</p>", "" }}
+                            </td>
+                        </tr>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </table>
+    </div>
+</div>

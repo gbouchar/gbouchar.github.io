@@ -1,0 +1,33 @@
+{{ post.date | date: '%B %Y' }}.
+
+{% if curr_year %}
+    {% if post.publisher %}
+        {{post.publisher }}.
+    {% endif %}
+{% endif %}
+
+{% if post.pdf %}
+    <a target="_blank"
+        href="{{ post.pdf }}"><img alt="PDF-file icon"
+            src="/img/fugue/document-pdf-text.png"/></a>
+{% endif %}
+
+{% if post.slides %}
+    <a target="_blank"
+        href="{{ post.slides }}"><img alt="Slides icon"
+            src="/img/fugue/projection-screen-presentation.png"/></a>
+{% endif %}
+
+{% if post.poster %}
+    <a target="_blank"
+        href="{{ post.poster }}"><img alt="Poster icon"
+            src="/img/fugue/application-blog.png"/></a>
+{% endif %}
+
+<a target="_blank"
+    href="{{ post.bib }}"><img alt="BibTeX icon"
+            src="/img/bibtex_icon_small.png"/></a>
+
+{% if post.to_appear %}
+    <em>(to appear)</em>
+{% endif %}
