@@ -5,7 +5,7 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
 ---
 
 <a href="img/GuillaumeBouchardChamechaude.jpg" style="cursor: default">
-    <img id="portrait" src="img/GuillaumeBouchardChamechaude.jpg
+    <img id="portrait" src="img/GuillaumeBouchard.jpg"
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
 My name is Guillaume Bouchard <a class="fnote" href="#fnote-name">*</a>,

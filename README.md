@@ -1,4 +1,4 @@
-# ninjin.github.io #
+# gbouchar.github.io #
 
 Jekyll/Git-based Homepage,
 abusing the Jekyll "blog awareness" for data storage and served at
