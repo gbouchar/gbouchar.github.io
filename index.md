@@ -4,8 +4,8 @@ title:  Welcome!
 cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural language processing, artificial intelligence"
 ---
 
-<a href="img/GuillaumeBouchard.jpg" style="cursor: default">
-    <img id="portrait" src="img/GuillaumeBouchardChamechaude.jpg
+<a href="img/GuillaumeBouchardChamechaude.jpg" style="cursor: default">
+    <img id="portrait" src="img/GuillaumeBouchard.jpg"
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
 My name is Guillaume Bouchard <a class="fnote" href="#fnote-name">*</a>,
