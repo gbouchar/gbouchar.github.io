@@ -19,6 +19,7 @@ Some personal thoughts about the impact of machine learning on the society. The 
 
 [Public presentation][playfair_ai_event]
 A well-prepared presentation of the company we created with Sebastian Riedel and few others. 
-Should be soon available as a video.
+[Link to video][playfair_event_gb_video].
 
 [playfair_ai_event]: http://playfaircapital.com/events/artificial-intelligence-showcase/
+[playfair_event_gb_video]: https://www.youtube.com/watch?v=sKZD8huxjZ0
