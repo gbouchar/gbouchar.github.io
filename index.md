@@ -12,8 +12,7 @@ My name is Guillaume Bouchard <a class="fnote" href="#fnote-name">*</a>,
 I am senior researcher at [University College London][ucl] (UCL) and find
 research on [Natural Language Processing][nlp] (NLP) and [Machine Learning][ml]
 to be fascinating. I'm deeply interested in one research direction: replacing programming languages 
-by interactive dialog interaction in natural language. We currently created a company called [Bloomsbury-AI][bai] with colleagues to
-make this project real.
+by interactive dialog interaction in natural language. We currently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented on [this video][videobai].
 
 If you share any of my research interests, do have a look at
 my [list of publications][pubs] and if you have questions regarding
@@ -31,3 +30,4 @@ at the [Department of Computer Science][uclcs] and received a PhD in 2004
 [uclcs]:    http://www.cs.ucl.ac.uk/
 [uclmr]:    http://mr.cs.ucl.ac.uk/
 [bai]:      http://bloomsbury.ai/
+[videobai]: https://www.youtube.com/watch?v=sKZD8huxjZ0 
