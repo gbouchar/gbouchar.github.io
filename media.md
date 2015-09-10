@@ -9,7 +9,7 @@ Here are few links about me on press releases or general websites about machine 
 
 ## Will software that writes code alter tech’s script? 2015-08-09 ##
 
-An article in the Financial Time about the software that generate computer code. The author [Richard Newton][Richard_Newton] is interested by this domain for a long time.
+An [article in the Financial Time][FT_article] about the software that generate computer code. The author [Richard Newton][Richard_Newton] is interested by this domain for a long time.
 
 [FT_article]: http://www.ft.com/intl/cms/s/0/6c6ccace-521d-11e5-b029-b9d50a74fd14.html#axzz3l3EALLay
 [Richard_Newton]: http://www.richard-newton.com/
