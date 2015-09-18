@@ -7,12 +7,18 @@ cmeta:  "Links to mass media attention given to me or things I have been
 
 Here are few links about me on press releases or general websites about machine learning or articial intelligence:
 
+## Le Machine Learning : une menace pour la programmation informatique ? ##
+French [article][IT_article] in industrie-techno.com where I argue that the true goal of machine learning is to reduce the need of programming. It is based on an earlier interview when I was working full time for Xerox.
+
+[IT_article]: http://www.industrie-techno.com/le-machine-learning-une-menace-pour-la-programmation-informatique.39768
+
 ## Will software that writes code alter tech’s script? 2015-08-09 ##
 
-An [article in the Financial Time][FT_article] about the software that generate computer code. The author [Richard Newton][Richard_Newton] is interested by this domain for a long time.
+An [article in the Financial Time][FT_article] about the software that generate computer code. The author [Richard Newton][Richard_Newton] is interested by this domain for a long time. Scott Barstow [commented][Scott_Barstow_post] on this.
 
 [FT_article]: http://www.ft.com/intl/cms/s/0/6c6ccace-521d-11e5-b029-b9d50a74fd14.html#axzz3l3EALLay
 [Richard_Newton]: http://www.richard-newton.com/
+[Scott_Barstow_post]: http://scottbarstow.com/programming-by-teaching-dr-guillaume-bouchard/
 
 
 ## Programming by teaching 2015-05-06 ##
