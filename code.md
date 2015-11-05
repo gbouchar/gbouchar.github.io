@@ -10,12 +10,9 @@ density distributions, optimization algorithms, model selection, etc. Although q
 I switched to Python, Scala and Lua.
 
 Hopefully, I'm going to participate in the development of [Wolfe][wolfe]
-Now that I joined 
-l
 
 
-You can find random code snippets/forks and more at [my GitHub
-page][github]. 
+You can find random code snippets/forks and more at [my GitHub page][github]. 
 
 
 
