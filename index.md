@@ -9,17 +9,17 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
 My name is Guillaume Bouchard <a class="fnote" href="#fnote-name">*</a>,
-I am senior researcher at [University College London][ucl] (UCL) after 11 years at [Xerox Research Centre Europe][xrcegb]
+I am a senior researcher at [University College London][ucl] (UCL) after 11 years at [Xerox Research Centre Europe][xrcegb]
 in Grenoble, France. I find
 research on [Natural Language Processing][nlp] (NLP) and [Machine Learning][ml]
 to be fascinating. I'm deeply interested in one research direction: replacing programming languages 
-by interactive dialog interaction in natural language. We currently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented on [this video][videobai].
+with interactive dialog interaction in natural language. We recently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented in [this video][videobai].
 
 If you share any of my research interests, do have a look at
 my [list of publications][pubs] since 2015 and if you have questions regarding
 my previous and/or current research, feel free to look at my previous web [page][xrcegb] or to contact [me][contact].
 I am currently a member of the [UCL Machine Reading Group][uclmr]
-at the [Department of Computer Science][uclcs] and received a PhD in 2004.
+at the [Department of Computer Science][uclcs] and received a PhD in 2004 from Institut National de Recherche en Automatique et Informatique ([INRIA][inria]) and [University Joseph Fourier][ujf].
 
 <p class="fnote" id="fnote-name">* Guillaume Bouchard</p>
 
@@ -33,3 +33,5 @@ at the [Department of Computer Science][uclcs] and received a PhD in 2004.
 [bai]:      http://bloomsbury.ai/
 [videobai]: https://www.youtube.com/watch?v=sKZD8huxjZ0 
 [xrcegb]:   http://www.xrce.xerox.com/About-XRCE/People/Guillaume-Bouchard
+[inria]:    http://www.inria.fr/en/
+[ujf]:      https://www.ujf-grenoble.fr/?language=en
