@@ -7,6 +7,12 @@ cmeta:  "Links to mass media attention given to me or things I have been
 
 Here are few links about me on press releases or general websites about machine learning or articial intelligence:
 
+## Everyone is a programmer?##
+An [article][cbn_article] in the Chinese Business Newspaper (CBN) written by Christina Yao on the 
+possibility for everyone to create their own programs just by speaking.
+
+[cbn_article]: http://www.cbnweek.com/v/article?id=20879
+
 ## Le Machine Learning : une menace pour la programmation informatique ? ##
 French [article][IT_article] in industrie-techno.com where I argue that the true goal of machine learning is to reduce the need of programming. It is based on an earlier interview when I was working full time for Xerox.
 
