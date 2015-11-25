@@ -11,14 +11,13 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
 My name is Guillaume Bouchard,
 I am a senior researcher at [University College London][ucl] (UCL) after 11 years at [Xerox Research Centre Europe][xrcegb]
 in Grenoble, France. I'm passionate about [Machine Learning][ml]
-and [Natural Language Processing][nlp] (NLP). My long term objective is to replaceprogramming languages 
-with interactive dialog interaction in natural language. We recently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented in [this video][videobai]. 
+and [Natural Language Processing][nlp] (NLP). My long term objective is to replace programming languages with interactive dialog interaction in natural language. We recently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented in [this video][videobai]. 
 
 In my research in machine learning, I'm always interested in the beauty of math, especially when this helps to 
 solve real worl problems. I'm a big fan of:
-* *variational inference*: how to transform an intractable integral into an optimization problem), 
-* *stochastic optimization*:  using randomization techniques to learn faster. In particular the concepts of *learning to sample* and *learning to optimize* seem to be really promising research topics, 
-* *factorization model*: why spectral theory appear naturally in many different areas and how embedding models can the seen as good prior for logical reasoning.
+* *variational inference*: how to transform an intractable integral into an optimization problem. Classically, people use a method called Variational Bayes (VB) which is based on Jensen inequality, but I found a [new way][vh] of doing using Holder inequality that has much nicer theoretical properties. 
+* *stochastic optimization*:  using randomization techniques to learn faster. In particular the concepts of *[learning to sample][awsgd]* and *learning to optimize* seem to be really promising research topics, 
+* *factorization model*: why spectral theory appear naturally in many different areas and why embedding models can the seen as [good prior for logical reasoning][signrank].
 
 I natural language processing, I have been interested for many years in flexible models that can learn from a huge amount of 
 data. The hope is to automatically learn general facts about the world, without having to specify an intermediary representation, such as grammatical classes or ontologies. This means:
@@ -46,3 +45,6 @@ in the [Department of Computer Science][uclcs]. I received a PhD in 2004 from In
 [inria]:    http://www.inria.fr/en/
 [ujf]:      https://www.ujf-grenoble.fr/?language=en
 [seb]:      http://www.riedelcastro.org/
+[vh]:       http://arxiv.org/abs/1506.06100
+[awsgd]:    http://arxiv.org/abs/1506.09016
+[signrank]: http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/view/10257
