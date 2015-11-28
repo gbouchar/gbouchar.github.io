@@ -7,5 +7,5 @@ venue: 'IASC International Symposium on Computational Statistics (COMPSTAT) ,pp.
 authors: ['Guillaume Bouchard','Bill Triggs']
 venue_type: international
 venue: 'IASC International Symposium on Computational Statistics (COMPSTAT)'
-pages: "721-728"
+pages: "{721-728}"
 ---

@@ -6,4 +6,5 @@ title: 'Approximate Inference with the Variational Holder Bound'
 venue: 'ArXiv e-prints'
 authors: ['G. Bouchard','B. Lakshminarayanan']
 venue_type: international
+url: 'Ihttp://arxiv.org/abs/1506.06100'
 ---

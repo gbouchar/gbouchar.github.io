@@ -7,4 +7,5 @@ venue: 'Knowledge Representation and Reasoning: Integrating Symbolic and Neural 
 authors: ['Guillaume Bouchard','Sameer Singh','Theo Trouillon']
 venue_type: international
 venue: 'Knowledge Representation and Reasoning: Integrating Symbolic and Neural Approaches, AAAI Spring Symposium Series'
+url: 'https://www.aaai.org/ocs/index.php/SSS/SSS15/paper/download/10257/10026'
 ---
