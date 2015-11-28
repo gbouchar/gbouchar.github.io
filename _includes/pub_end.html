@@ -6,6 +6,12 @@
     {% endif %}
 {% endif %}
 
+{% if post.url %}
+    <a target="_blank"
+        href="{{ post.url }}"><img alt="web link"
+            src="/img/link.png"/></a>
+{% endif %}
+
 {% if post.pdf %}
     <a target="_blank"
         href="{{ post.pdf }}"><img alt="PDF-file icon"

@@ -1,5 +1,5 @@
 {% for author in post.authors %}
-    {% if author == 'Pontus Stenetorp' %}
+    {% if author == 'Guillaume Bouchard' %}
         <em>{{ author }}{% if forloop.last %}.{% else %},{% endif %}</em>
     {% else %}
         {{ author }}{% if forloop.last %}.{% else %},{% endif %}
@@ -9,3 +9,5 @@
 <strong>
     {{ post.title }}.
 </strong>
+
+{{ post.venue }}.
