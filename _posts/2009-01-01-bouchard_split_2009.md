@@ -3,6 +3,7 @@
 type: publication
 bib: 'bib/bouchard_split_2009.bib'
 title: 'Split variational inference'
+venue: 'ACM ,Proceedings of the 26th Annual International Conference on Machine Learning ,pp. 57-64'
 authors: ['Guillaume Bouchard','Onno Zoeter']
 venue_type: international
 venue: 'Proceedings of the 26th Annual International Conference on Machine Learning'

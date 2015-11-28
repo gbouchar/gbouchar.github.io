@@ -3,6 +3,7 @@
 type: publication
 bib: 'bib/frichot_landscape_2012.bib'
 title: 'Landscape genomic tests for associations between loci and environmental gradients'
+venue: ''
 authors: ['Eric Frichot','Sean Schoville','Guillaume Bouchard','Olivier Francois']
 venue_type: international
 ---

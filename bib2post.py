@@ -112,13 +112,29 @@ def main(args):
                 presented.strftime('%Y-%m-%d'), entry.replace('/','-'))
 
         try:
+            venue = []
+            if 'journal' in fields:
+                venue += [fields['journal']] 
+            if 'publisher' in fields:
+                venue += [fields['publisher']] 
+            if 'booktitle' in fields:
+                venue += [fields['booktitle']] 
+           # if 'editor' in fields:
+        #    venue += ['ed. ' + fields['editor']] 
+            if 'pages' in fields:
+                venue += ['pp. ' + fields['pages']] 
+            venue = " ,".join(venue)
+        except:
+            venue = ""
 
+        try:
             out = [
                 '---',
                 '# Note: Generated file, do not edit directly.',
                 'type: publication',
                 'bib: {}'.format(repr(bib_name)),
                 'title: {}'.format(repr(_tex_unescape(fields['title']))),
+                'venue: {}'.format(repr(_tex_unescape(venue))),
                 'authors: [{}]'.format(
                     ','.join(repr(a) for a in _authors(
                         _tex_unescape(fields['author'])))),

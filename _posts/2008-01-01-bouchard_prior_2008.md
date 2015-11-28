@@ -3,6 +3,7 @@
 type: publication
 bib: 'bib/bouchard_prior_2008.bib'
 title: 'Workshop on Prior Knowledge for Text and Language Processing'
-authors: ['Guillaume Bouchard',"Hal Daum\\'e III",'Marc Dymetman','Yee Whye Teh']
+venue: ''
+authors: ['Guillaume Bouchard','Hal Daume III','Marc Dymetman','Yee Whye Teh']
 venue_type: international
 ---
