@@ -3,7 +3,6 @@
 type: publication
 bib: 'bib/bouchard_model_2004.bib'
 title: 'Model selection in supervised classification'
-venue: 'Proceedings of CLADAG 2004'
 authors: ['Guillaume Bouchard','Gilles Celeux']
 venue_type: international
 venue: 'Proceedings of CLADAG 2004'

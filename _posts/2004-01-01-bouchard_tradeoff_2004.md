@@ -3,9 +3,8 @@
 type: publication
 bib: 'bib/bouchard_tradeoff_2004.bib'
 title: 'The tradeoff between generative and discriminative classifiers'
-venue: 'IASC International Symposium on Computational Statistics (COMPSTAT) ,pp. 721-728'
 authors: ['Guillaume Bouchard','Bill Triggs']
 venue_type: international
-venue: 'IASC International Symposium on Computational Statistics (COMPSTAT)'
+venue: 'IASC International Symposium on Computational Statistics (COMPSTAT) ,pp. 721-728'
 pages: "{721-728}"
 ---

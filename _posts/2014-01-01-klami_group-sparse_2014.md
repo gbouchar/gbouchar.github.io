@@ -3,7 +3,6 @@
 type: publication
 bib: 'bib/klami_group-sparse_2014.bib'
 title: 'Group-sparse Embeddings in Collective Matrix Factorization'
-venue: 'Proceedings of the 2nd International Conference on Learning Representations'
 authors: ['Arto Klami','Guillaume Bouchard','Abhishek Tripathi']
 venue_type: international
 venue: 'Proceedings of the 2nd International Conference on Learning Representations'

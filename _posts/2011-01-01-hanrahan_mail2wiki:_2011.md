@@ -3,10 +3,9 @@
 type: publication
 bib: 'bib/hanrahan_mail2wiki:_2011.bib'
 title: 'Mail2Wiki: posting and curating Wiki content from email'
-venue: 'ACM ,Proceedings of the 16th international conference on Intelligent user interfaces ,pp. 441-442'
 authors: ['Benjamin V Hanrahan','Thiebaud Weksteen','Nicholas Kong','Gregorio Convertino','Guillaume Bouchard','Cedric Archambeau','Ed H Chi']
 venue_type: international
-venue: 'Proceedings of the 16th international conference on Intelligent user interfaces'
+venue: 'ACM ,Proceedings of the 16th international conference on Intelligent user interfaces ,pp. 441-442'
 pages: "441-442"
 publisher: "{ACM}"
 ---
