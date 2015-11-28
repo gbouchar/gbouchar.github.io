@@ -30,8 +30,6 @@ my previous and/or current research, feel free to look at my previous web [page]
 I'm part of the [UCL Machine Reading Group][uclmr] lead by [Sebastian Riedel][seb]
 in the [Department of Computer Science][uclcs]. I received a PhD in 2004 from Institut National de Recherche en Automatique et Informatique ([INRIA][inria]) and [University Joseph Fourier][ujf].
 
-<p class="fnote" id="fnote-name">* Guillaume Bouchard</p>
-
 [contact]:  /contact.html
 [ml]:       https://en.wikipedia.org/wiki/Machine_learning
 [nlp]:      https://en.wikipedia.org/wiki/Natural_language_processing
