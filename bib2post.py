@@ -111,6 +111,29 @@ def main(args):
         post_fname = '{}-{}.md'.format(
                 presented.strftime('%Y-%m-%d'), entry.replace('/','-'))
 
+
+        try:
+            out = [
+                '---',
+                '# Note: Generated file, do not edit directly.',
+                'type: publication',
+                'bib: {}'.format(repr(bib_name)),
+                'title: {}'.format(repr(_tex_unescape(fields['title']))),
+                'authors: [{}]'.format(
+                    ','.join(repr(a) for a in _authors(
+                        _tex_unescape(fields['author'])))),
+                ]
+        except:
+            print("Entry " + entry + " has an error with the name, the title or the author field")           
+            exit(1)
+
+
+        try:
+            out.append('venue_type: {}'.format(
+                    repr(fields['venue_type'].lower())))
+        except KeyError:
+            out.append('venue_type: international')
+
         try:
             venue = []
             if 'journal' in fields:
@@ -124,36 +147,8 @@ def main(args):
             if 'pages' in fields:
                 venue += ['pp. ' + fields['pages']] 
             venue = " ,".join(venue)
-        except:
-            venue = ""
-
-        try:
-            out = [
-                '---',
-                '# Note: Generated file, do not edit directly.',
-                'type: publication',
-                'bib: {}'.format(repr(bib_name)),
-                'title: {}'.format(repr(_tex_unescape(fields['title']))),
-                'venue: {}'.format(repr(_tex_unescape(venue))),
-                'authors: [{}]'.format(
-                    ','.join(repr(a) for a in _authors(
-                        _tex_unescape(fields['author'])))),
-                ]
-        except:
-            print(counts)
-            print("Entry " + entry + " has an error with the name, the title or the author field")           
-            exit(1)
-
-
-        try:
-            out.append('venue_type: {}'.format(
-                    repr(fields['venue_type'].lower())))
-        except KeyError:
-            out.append('venue_type: international')
-
-        try:
             out.append('venue: {}'.format(
-                repr(_tex_unescape(fields['booktitle']))))
+                repr(_tex_unescape(venue))))
         except KeyError:
             pass
 
@@ -169,22 +164,27 @@ def main(args):
             pass
 
         try:
+            out.append('url: {}'.format(repr(fields['url'])))
+        except KeyError:
+            pass
+
+        try:
             out.append('pdf: {}'.format(repr(fields['pdf_url'])).replace(
                 # Make the URL reference local.
-                'http://https://gbouchar.github.io', ''))
+                'https://gbouchar.github.io', ''))
         except KeyError:
             pass
 
         try:
             out.append('slides: "{}"'.format(fields['slides_url']).replace(
                 # Make the URL reference local.
-                'http://https://gbouchar.github.io', ''))
+                'https://gbouchar.github.io', ''))
         except KeyError:
             pass
 
         try:
             out.append('poster: "{}"'.format(fields['poster_url']).replace(
-                'http://https://gbouchar.github.io', ''))
+                'https://gbouchar.github.io', ''))
         except KeyError:
             pass
 
