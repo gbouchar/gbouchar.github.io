@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/kaschesky_bringing_2013.bib'
+bib: 'bib/kaschesky_bringing_2013.bib'
 title: 'Bringing Representativeness into Social Media Monitoring and Analysis'
 authors: ['Michael Kaschesky','Pawel Sobkowicz','Jose Miguel Hernandez Lobato','Guillaume Bouchard',"C\\'edric Archambeau",'Nicolas Scharioth','Robert Manchin','Adrian Gschwend','Reinhard Riedl']
 venue_type: international

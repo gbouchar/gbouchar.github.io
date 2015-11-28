@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/nelakanti_structured_2013.bib'
+bib: 'bib/nelakanti_structured_2013.bib'
 title: 'Structured penalties for log-linear language models'
 authors: ['Anil Nelakanti',"C\\'edric Archambeau",'Julien Mairal','Francis Bach','Guillaume Bouchard']
 venue_type: international

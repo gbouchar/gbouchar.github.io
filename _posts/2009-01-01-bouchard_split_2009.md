@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/bouchard_split_2009.bib'
+bib: 'bib/bouchard_split_2009.bib'
 title: 'Split variational inference'
 authors: ['Guillaume Bouchard','Onno Zoeter']
 venue_type: international

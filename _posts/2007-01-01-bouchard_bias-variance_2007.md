@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/bouchard_bias-variance_2007.bib'
+bib: 'bib/bouchard_bias-variance_2007.bib'
 title: 'Bias-variance tradeoff in hybrid generative-discriminative models'
 authors: ['Guillaume Bouchard']
 venue_type: international

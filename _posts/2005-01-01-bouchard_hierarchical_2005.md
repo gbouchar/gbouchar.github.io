@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/bouchard_hierarchical_2005.bib'
+bib: 'bib/bouchard_hierarchical_2005.bib'
 title: 'Hierarchical part-based visual object categorization'
 authors: ['Guillaume Bouchard','Bill Triggs']
 venue_type: international

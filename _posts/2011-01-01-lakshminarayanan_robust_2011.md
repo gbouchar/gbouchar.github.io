@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/lakshminarayanan_robust_2011.bib'
+bib: 'bib/lakshminarayanan_robust_2011.bib'
 title: 'Robust bayesian matrix factorisation'
 authors: ['Balaji Lakshminarayanan','Guillaume Bouchard',"C\\'edric Archambeau"]
 venue_type: international

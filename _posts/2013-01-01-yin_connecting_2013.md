@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/yin_connecting_2013.bib'
+bib: 'bib/yin_connecting_2013.bib'
 title: 'Connecting comments and tags: improved modeling of social tagging systems'
 authors: ['Dawei Yin','Shengbo Guo','Boris Chidlovskii','Brian D Davison',"C\\'edric Archambeau",'Guillaume Bouchard']
 venue_type: international

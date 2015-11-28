@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '_bib/frichot_correcting_2012.bib'
+bib: 'bib/frichot_correcting_2012.bib'
 title: 'Correcting principal component maps for effects of spatial autocorrelation in population genetic data'
 authors: ['Eric Frichot','Sean Schoville','Guillaume Bouchard','Olivier Francois']
 venue_type: international
