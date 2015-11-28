@@ -1,7 +1,7 @@
 ---
 # Note: Generated file, do not edit directly.
 type: publication
-bib: '/res/bib/bouchard.bib'
+bib: '_bib/archambeau_latent_2014.bib'
 title: 'Latent IBP compound Dirichlet Allocation'
 authors: ["C\\'edric Archambeau",'Balaji Lakshminarayanan','Guillaume Bouchard']
 venue_type: international
