@@ -6,5 +6,5 @@ title: 'Accelerating Stochastic Gradient Descent via Online Learning to Sample'
 authors: ['Guillaume Bouchard','Theo Trouillon','Julien Perez','Adrien Gaidon']
 venue_type: international
 venue: 'CoRR'
-url: 'http://arxiv.org/abs/1506.09016'
+adurl: 'http://arxiv.org/abs/1506.09016'
 ---

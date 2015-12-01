@@ -163,8 +163,9 @@ def main(args):
         except KeyError:
             pass
 
+        # URL are given by the file name
         try:
-            out.append('url: {}'.format(repr(fields['url'])))
+            out.append('adurl: {}'.format(repr(fields['url'])))
         except KeyError:
             pass
 
