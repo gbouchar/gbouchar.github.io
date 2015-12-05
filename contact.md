@@ -14,6 +14,12 @@ significant action on my part or I am exceedingly busy I will reply swiftly:
 g.bouchard at cs.ucl.ac.uk
 </p>
 
+## Social Media ##
+
+* [Facebook][fb]
+* [LinkedIn][linkedin]
+* [Twitter][twitter]
+
 ## University College London ##
 
 I have a desk in the [One Euston Square][gmap] building at the University
@@ -28,3 +34,6 @@ College London Bloomington Campus, the address can be found below.
         United Kingdom
 
 [gmap]: http://goo.gl/j7h3iY
+[linkedin]: https://www.linkedin.com/in/guillaume-bouchard-2494882
+[fb]: https://www.facebook.com/gbouchar
+[twitter]: https://twitter.com/gbouchar
