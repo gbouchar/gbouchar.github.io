@@ -8,18 +8,16 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
     <img id="portrait" src="img/GuillaumeBouchard.jpg"
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
-My name is Guillaume Bouchard,
-I am a senior researcher at [University College London][ucl] (UCL) after 11 years at [Xerox Research Centre Europe][xrcegb]
-in Grenoble, France. I'm passionate about [Machine Learning][ml]
-and [Natural Language Processing][nlp] (NLP). My long term objective is to replace programming languages with interactive dialog interaction in natural language. We recently created a company called [Bloomsbury-AI][bai] with colleagues to make this project real. The main idea of the company is presented in [this video][videobai]. 
+I'm Guillaume Bouchard, Founder and Director of [Bloomsbury-AI][bai], a early-stage company that enables everybody to program through a converstation with the computer. I'm also associate researcher in the [Machine Reading team][uclmr] at  [University College London][ucl] (UCL). Previously, I worked 11 years at [Xerox Research Centre Europe][xrcegb] in Grenoble, France. I'm passionate about [Machine Learning][ml]
+and [Natural Language Processing][nlp] (NLP). Since many years, my unique goal is to replace programming languages with natural language, as shown in [this video][videobai]. 
 
-In my research in machine learning, I'm always interested in the beauty of math, especially when this helps to 
+My research interests are closely related to the mathematical modelling of the world, especially when this helps to 
 solve real worl problems. I'm a big fan of:
 * *variational inference*: how to transform an intractable integral into an optimization problem. Classically, people use a method called Variational Bayes (VB) which is based on Jensen inequality, but I found a [new way][vh] of doing using Holder inequality that has much nicer theoretical properties. 
 * *stochastic optimization*:  using randomization techniques to learn faster. In particular the concepts of *[learning to sample][awsgd]* and *learning to optimize* seem to be really promising research topics, 
 * *factorization model*: why spectral theory appear naturally in many different areas and why embedding models can the seen as [good prior for logical reasoning][signrank].
 
-I natural language processing, I have been interested for many years in flexible models that can learn from a huge amount of 
+In natural language processing, I have been interested for many years in flexible models that can learn from a huge amount of 
 data. The hope is to automatically learn general facts about the world, without having to specify an intermediary representation, such as grammatical classes or ontologies. This means:
 * *language models*: a generative model of text, this can take many different form, but basically, a language model gives you a high score for sentences that are plausible.
 * *machine reading*: this can be viewed as a question-answering system where there is some extra information, such as questions about a short story, science exams questions. The real reason why I'm interested in this techniques is that question-answering is the equivalent of "debugging" when you write software code, but this makes life so much easier when the computer speaks your language (and adapts to your language as well...). 
