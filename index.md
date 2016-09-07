@@ -9,7 +9,7 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
 I'm Guillaume Bouchard, Founder and Director of [Bloomsbury-AI][bai], an early-stage company that enables everybody to teach what they know to the computer through a written conversation. I'm also associate researcher in the [Machine Reading team][uclmr] at  [University College London][ucl] (UCL). Previously, I worked 11 years at [Xerox Research Centre Europe][xrcegb] in Grenoble, France. I'm passionate about [Machine Learning][ml]
-and [Natural Language Processing][nlp] (NLP). Since many years, my unique goal is to replace programming languages with natural language, as shown in [this video][videobai]. 
+and [Natural Language Processing][nlp] (NLP). Since many years, my unique goal is to replace programming languages with natural language, as shown in these videos: [Playfair AI summit 2015 (20 minutes)][videobai] and [Entrepreneur First Demo Day 2016 (5 minutes)][videoefdd]. 
 
 My research interests are closely related to the mathematical modelling of the world, especially when this helps to 
 solve real worl problems. I'm a big fan of:
@@ -25,19 +25,20 @@ data. The hope is to automatically learn general facts about the world, without 
 If you share any of my research interests, do have a look at my [list of publications][pubs] since 2015 and if you have questions regarding my previous and/or current research, feel free to contact [me][contact]. I'm part of the [UCL Machine Reading Group][uclmr] lead by [Sebastian Riedel][seb]
 in the [Department of Computer Science][uclcs]. I received a PhD in 2004 from Institut National de Recherche en Automatique et Informatique ([INRIA][inria]) and [University Joseph Fourier][ujf].
 
-[contact]:  /contact.html
-[ml]:       https://en.wikipedia.org/wiki/Machine_learning
-[nlp]:      https://en.wikipedia.org/wiki/Natural_language_processing
-[pubs]:     /publications.html
-[ucl]:      http://www.ucl.ac.uk/
-[uclcs]:    http://www.cs.ucl.ac.uk/
-[uclmr]:    http://mr.cs.ucl.ac.uk/
-[bai]:      http://bloomsbury.ai/
-[videobai]: https://www.youtube.com/watch?v=sKZD8huxjZ0 
-[xrcegb]:   http://www.xrce.xerox.com/About-XRCE/People/Guillaume-Bouchard
-[inria]:    http://www.inria.fr/en/
-[ujf]:      https://www.ujf-grenoble.fr/?language=en
-[seb]:      http://www.riedelcastro.org/
-[vh]:       http://arxiv.org/abs/1506.06100
-[awsgd]:    http://arxiv.org/abs/1506.09016
-[signrank]: http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/view/10257
+[contact]:   /contact.html
+[ml]:        https://en.wikipedia.org/wiki/Machine_learning
+[nlp]:       https://en.wikipedia.org/wiki/Natural_language_processing
+[pubs]:      /publications.html
+[ucl]:       http://www.ucl.ac.uk/
+[uclcs]:     http://www.cs.ucl.ac.uk/
+[uclmr]:     http://mr.cs.ucl.ac.uk/
+[bai]:       http://bloomsbury.ai/
+[videobai]:  https://www.youtube.com/watch?v=sKZD8huxjZ0 
+[videoefdd]: https://drive.google.com/file/d/0BylXiHst5AKXb0NtNG9panNCdGc/view
+[xrcegb]:    http://www.xrce.xerox.com/About-XRCE/People/Guillaume-Bouchard
+[inria]:     http://www.inria.fr/en/
+[ujf]:       https://www.ujf-grenoble.fr/?language=en
+[seb]:       http://www.riedelcastro.org/
+[vh]:        http://arxiv.org/abs/1506.06100
+[awsgd]:     http://arxiv.org/abs/1506.09016
+[signrank]:  http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/view/10257
