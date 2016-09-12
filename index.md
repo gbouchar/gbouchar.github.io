@@ -34,7 +34,7 @@ in the [Department of Computer Science][uclcs]. I received a PhD in 2004 from In
 [uclmr]:     http://mr.cs.ucl.ac.uk/
 [bai]:       http://bloomsbury.ai/
 [videobai]:  https://www.youtube.com/watch?v=sKZD8huxjZ0 
-[videoefdd]: https://drive.google.com/file/d/0BylXiHst5AKXb0NtNG9panNCdGc/view
+[videoefdd]: https://www.youtube.com/watch?v=N0mRn1bQyzU
 [xrcegb]:    http://www.xrce.xerox.com/About-XRCE/People/Guillaume-Bouchard
 [inria]:     http://www.inria.fr/en/
 [ujf]:       https://www.ujf-grenoble.fr/?language=en
