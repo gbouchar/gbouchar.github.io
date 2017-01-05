@@ -36,12 +36,6 @@ A well-prepared presentation of the company we created with Sebastian Riedel and
 [playfair_ai_event]: http://playfaircapital.com/events/artificial-intelligence-showcase/
 [playfair_event_gb_video]: https://www.youtube.com/watch?v=sKZD8huxjZ0
 
-## Making machien more human ##
-
-A short article in [Geeltime website][geektime].
-
-[geektime]: http://www.geektime.com/2016/10/13/5-potentially-game-changing-british-ai-startups-making-machines-and-people-feel-less-robotic/?utm_source=post&utm_medium=hsuite
-
 ## What is machine learning anyway? 2014-12-20 ##
 
 [Xerox Business group WDS blog][wds_blog]
@@ -49,4 +43,10 @@ Some personal thoughts about the impact of machine learning on the society. The 
 
 [wds_blog]: http://www.wds.co/machine-learning-anyway/ 
 [gb_video]: https://www.youtube.com/watch?list=PLyAVNkfBMWVUCz4ySPzgc9YWw7he_7JhM&v=AkUTPBUqYKg
+
+## Making machines more human ##
+
+A short article in [Geektime website][geektime].
+
+[geektime]: http://www.geektime.com/2016/10/13/5-potentially-game-changing-british-ai-startups-making-machines-and-people-feel-less-robotic/?utm_source=post&utm_medium=hsuite
 
