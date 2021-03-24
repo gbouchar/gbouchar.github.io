@@ -8,7 +8,7 @@ cmeta:  "Homepage of Guillaume Bouchard, researcher in machine learning, natural
     <img id="portrait" src="img/GuillaumeBouchard.jpg"
         alt="Guillaume at the top of Chamechaude in Chartreuse montains, France"/>
 </a>
-I'm Guillaume Bouchard, Founder and Director of [Bloomsbury-AI][bai], an early-stage company that enables everybody to teach what they know to the computer through a written conversation. I'm also associate researcher in the [Machine Reading team][uclmr] at  [University College London][ucl] (UCL). Previously, I worked 11 years at [Xerox Research Centre Europe][xrcegb] in Grenoble, France. I'm passionate about [Machine Learning][ml]
+I'm Guillaume Bouchard, Founder and Director of [CheckStep][cs], an early-stage company that enables everybody to teach what they know to the computer through a written conversation. I'm also associate researcher in the [Machine Reading team][uclmr] at  [University College London][ucl] (UCL). Previously, I worked 11 years at [Xerox Research Centre Europe][xrcegb] in Grenoble, France. I'm passionate about [Machine Learning][ml]
 and [Natural Language Processing][nlp] (NLP). Since many years, my unique goal is to replace programming languages with natural language, as shown in these videos: [Playfair AI summit 2015 (20 minutes)][videobai] and [Entrepreneur First Demo Day 2016 (5 minutes)][videoefdd]. 
 
 My research interests are closely related to the mathematical modelling of the world, especially when this helps to 
@@ -32,7 +32,7 @@ in the [Department of Computer Science][uclcs]. I received a PhD in 2004 from In
 [ucl]:       http://www.ucl.ac.uk/
 [uclcs]:     http://www.cs.ucl.ac.uk/
 [uclmr]:     http://mr.cs.ucl.ac.uk/
-[bai]:       http://bloomsbury.ai/
+[cs]:        https://checkstep.com/
 [videobai]:  https://www.youtube.com/watch?v=sKZD8huxjZ0 
 [videoefdd]: https://www.youtube.com/watch?v=N0mRn1bQyzU
 [xrcegb]:    http://www.xrce.xerox.com/About-XRCE/People/Guillaume-Bouchard
